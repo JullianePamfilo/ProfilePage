@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px;
+    width: auto;
+}
+.nav-bar h1 {
+    font-family: arial;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.navagation {
+    align-items: center;
+    display: flex;
+}
+.nav-links {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+}
+li {
+    margin: 20px;
+    list-style-type: none;
+}
+.click {
+    color: white;
+    background-color: darkcyan;
+    font-size: 20px;
+    border: 5px black;
+    box-shadow: 3px 3px black;
+    padding: 4px 12px;
+    font-weight: bold;
+    font-family: arial;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.center-content {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.left-bar, .right-bar {
+    margin: 60px;
+}
+.left-bar {
+    width: 700px;
+}
+.center-profile, .learn, .connection-request, .your-connections, footer {
+    border: lightgray 3.50px solid;
+}
+.center-profile {
+    margin-bottom: 30px;
+}
+.profile-header {
+    background-color: darkcyan;
+    height: 100px;
+}
+.avatar {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 20px;
+    top: 50px;
+    border: white 5px solid;
+}
+.body-profile {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.location {
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin: 10px 0px;
+    display: flex;
+}
+.location img, .control img {
+    margin-right: 10px;
+    height: 20px;
+}
+.control a {
+    color: blue;
+}
+.control {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.learn-header, .request-header, .connection-header {
+    background-color: rgb(73, 72, 72);
+    padding: 11px;
+}
+.learn-body {
+    height: 300px;
+    padding: 25px;
+}
+.right-bar {
+    width: 250px;
+}
+.date  {
+    margin: 10px 0px;
+    color: gray;
+}
+.connection-request {
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: white;
+}
+.request {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+}
+#request-count {
+    height: 25px;
+    width: 25px;
+    padding: 2.50px;
+    text-align: center;
+    background-color: lightgray;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.request-profile p {
+    padding-left: 5px;
+}
+.request-profile {
+    align-items: center;
+    display: flex;
+}
+.decision-maker {
+    padding: 5px;
+}
+#decline, #accept {
+    height: 35px;
+}
+#different-avatar {
+    background-color: white;
+    border: white 3px solid;
+    border-radius: 50%;
+    height: 50px;
+}
+.connection {
+    align-items: center;
+    padding: 5px;
+    display: flex;
+}
+.connection p {
+    margin-left: 10px;
+}
+#connection-count {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: lightgray;
+}
+footer {
+    padding: 10px;
+    width: auto;
+    border-top: gray;
+    font-size: 20px;
+}
